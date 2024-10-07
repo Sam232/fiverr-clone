@@ -1,0 +1,18 @@
+@import "./base.css";
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navLinks {
+        @apply text-slate-100 text-[17px] font-semibold
+    }
+    .navLinkWithIcon {
+        @apply  hover:bg-gray-100 hover:rounded-md
+    }
+    .bannerDesc {
+        @apply text-white font-semibold text-5xl
+    }
+    .navbarServices {
+        @apply text-gray-500 h-6
+    }
+}
